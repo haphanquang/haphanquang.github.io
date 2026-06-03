@@ -1,5 +1,4 @@
-/* Import modern Outfit font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+/* Google Fonts loaded via HTML <link> tags in index.html for faster preconnected resource loading */
 
 /* CSS Variables for Premium Design System */
 :root {
