@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }, 2000);
         })
         .catch(err => {
-          console.error('Không thể sao chép email: ', err);
+          console.error('Failed to copy email: ', err);
         });
     });
   }
