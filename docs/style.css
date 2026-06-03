@@ -2,7 +2,7 @@
 
 /* CSS Variables for Premium Design System */
 :root {
-  --font-primary: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-primary: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   
   /* Color Palette - Premium Dark Mode */
   --bg-primary: #080710;
