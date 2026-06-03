@@ -3,7 +3,7 @@
 /* CSS Variables for Premium Design System */
 :root {
   --font-primary: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  
+
   /* Color Palette - Premium Dark Mode */
   --bg-primary: #080710;
   --bg-secondary: #0f0e1c;
@@ -16,12 +16,12 @@
   --text-muted: #6b7280;
   --border-color: rgba(255, 255, 255, 0.08);
   --border-hover: rgba(255, 255, 255, 0.16);
-  
+
   /* Glassmorphism Styles */
   --glass-bg: rgba(15, 14, 28, 0.7);
   --glass-border: rgba(255, 255, 255, 0.05);
   --glass-shadow: rgba(0, 0, 0, 0.3);
-  
+
   /* Transitions */
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -275,15 +275,19 @@ section {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   }
+
   25% {
     border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
   }
+
   50% {
     border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
   }
+
   75% {
     border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
   }
+
   100% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   }
@@ -660,30 +664,30 @@ footer {
     gap: 3rem;
     text-align: center;
   }
-  
+
   .hero-content p {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .btn-group {
     justify-content: center;
   }
-  
+
   .hero-visual {
     order: -1;
   }
-  
+
   .about-grid {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .contact-container {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .section-title {
     font-size: 2.2rem;
   }
@@ -691,21 +695,22 @@ footer {
 
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* Can be expanded to hamburger menu in full implementations */
+    display: none;
+    /* Can be expanded to hamburger menu in full implementations */
   }
-  
+
   .hero-content h1 {
     font-size: 2.8rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   section {
     padding: 6rem 1.5rem 3rem;
   }
-  
+
   .contact-form-container {
     padding: 2rem;
   }
