@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
   // --- 1. Email Clipboard Copy Feature ---
   const copyBtn = document.getElementById('btn-copy');
-  const emailText = document.getElementById('email-text').innerText;
+  const emailTextElement = document.getElementById('email-text');
   const copyToast = document.getElementById('copy-toast');
 
-  if (copyBtn) {
+  if (copyBtn && emailTextElement) {
+    const emailText = emailTextElement.innerText;
     copyBtn.addEventListener('click', () => {
       navigator.clipboard.writeText(emailText)
         .then(() => {
